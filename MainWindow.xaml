@@ -1,0 +1,17 @@
+﻿<Window x:Class="DB_II.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DB_II"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="482.8" Width="800">
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="download (2).jpeg"/>
+        </Grid.Background>
+        <Frame x:Name="Main" Margin="0,-9,9.6,9.6" NavigationUIVisibility="Hidden" />
+        <Button Content="Sign in" HorizontalAlignment="Left" Margin="274,258,0,0" VerticalAlignment="Top" Width="185" Click="LoginBtn" Height="55" FontSize="24"/>
+        <Label x:Name="label" Content="Welcome to Pharmacy" HorizontalAlignment="Left" Margin="244,95,0,0" VerticalAlignment="Top" Height="77" Width="293" FontSize="24"/>
+    </Grid>
+</Window>
